@@ -1,0 +1,14 @@
+import collection
+
+DoubleEnded = collections.deque(["one ","Two","three"])
+print (DoubleEnded)
+
+
+print("Adding to the lftt: ")
+DoubleEnded.appendleft("four")
+print (DoubleEnded)
+
+
+print("Adding to the rihgt: ")
+DoubleEnded.append("zero")
+print (DoubleEnded)
